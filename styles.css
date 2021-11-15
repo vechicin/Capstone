@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(./assets/fonts/cocogoose-pro.regular.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex-direction: column;
+  background-image: url(./assets/images/background-music-hero-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lede {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 300;
+}
+
+.title {
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+}
+
+.main-description {
+  font-family: 'Lato', sans-serif;
+  border: 3px solid #fff;
+  background-color: #d3d3d3;
+  color: #272a31;
+}
+
+.date {
+  font-family: 'Cocogoose', sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+.location {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
