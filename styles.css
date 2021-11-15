@@ -3,6 +3,11 @@
   src: url(./assets/fonts/cocogoose-pro.regular.ttf);
 }
 
+@font-face {
+  font-family: Coconum;
+  src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -11,9 +16,20 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background: rgb(236,82,66);
+  background: linear-gradient(90deg, rgba(236,82,66,1) 45%, rgba(39,42,49,1) 90%);
+}
+
+.bi-list {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
 main {
   flex-direction: column;
-  background-image: url(./assets/images/background-music-hero-image.jpeg);
+  background-image: url(./assets/images/0020401278_0.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,27 +38,160 @@ main {
   font-family: 'Lato', sans-serif;
   color: #ec5242;
   font-weight: 300;
+  margin-left: 5%;
+  font-size: 30px;
+  margin-bottom: -3%;
 }
 
 .title {
   font-family: 'Cocogoose', sans-serif;
   color: #ec5242;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 6%;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 100%;
 }
 
 .main-description {
   font-family: 'Lato', sans-serif;
-  border: 3px solid #fff;
-  background-color: #d3d3d3;
-  color: #272a31;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  margin: 0 3%;
+  padding: 3% 3%;
 }
 
 .date {
   font-family: 'Cocogoose', sans-serif;
   color: #fff;
   font-size: 25px;
+  margin-left: 5%;
 }
 
 .location {
   font-family: 'Lato', sans-serif;
   color: #fff;
+  margin-left: 5%;
+  margin-bottom: 15%;
+}
+
+.program {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.program-list {
+  padding-right: 5%;
+  margin-bottom: 7%;
+}
+
+.program-title {
+  justify-self: center;
+  align-self: center;
+  border-bottom: 1px solid #ec5242;
+  border-radius: 2%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  color: #ec5242;
+}
+
+.item-description {
+  color: #fff;
+}
+
+.bi-book {
+  padding-right: 5%;
+}
+
+.item-title {
+  padding-right: 5%;
+}
+
+.bi-file-music {
+  padding-right: 7%;
+}
+
+#live-shows {
+  padding-right: 16%;
+}
+
+.bi-chat-left-text {
+  padding-right: 7%;
+}
+
+#forum {
+  padding-top: 3%;
+  padding-right: 16%;
+}
+
+.bi-person-workspace {
+  padding-right: 7%;
+}
+
+#workshop {
+  padding-top: 4%;
+  padding-right: 9%;
+}
+
+.join-button {
+  align-self: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ec5242;
+  border: none;
+  width: 75%;
+  height: 100px;
+  margin-bottom: 12%;
+}
+
+.join-button:hover {
+  border: 1px solid #272a31;
+}
+
+.join-button:active {
+  border: 2px solid #272a31;
+}
+
+.speakers {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  display: flex;
+}
+
+.herbie-image {
+  margin-left: 8%;
+  margin-right: 4%;
+  margin-top: 10%;
+  width: 40%;
+  height: 40%;
+}
+
+.speakers-title {
+  margin-top: 7%;
+  align-self: center;
+  border-bottom: 1px solid #ec5242;
+  border-radius: 2%;
+  padding-bottom: 3%;
+}
+
+.speaker-info {
+  margin-right: 2%;
+  line-height: 115%;
 }
