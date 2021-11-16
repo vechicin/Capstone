@@ -8,6 +8,32 @@
   src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    display: none;
+  }
+
+  .desktop-title {
+    display: none;
+  }
+
+  .social-navbar {
+    display: none;
+  }
+
+  .desktop-program-description {
+    display: none;
+  }
+
+  #desktop-speaker {
+    display: none;
+  }
+
+  .partnerships {
+    display: none;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -191,7 +217,7 @@ main {
   margin-right: 4%;
   margin-top: 15%;
   width: 75%;
-  height: 75%;
+  height: auto;
 }
 
 .speakers-title {
@@ -206,6 +232,17 @@ main {
   margin-right: 2%;
   line-height: 115%;
   text-align: justify;
+}
+
+.speaker-role {
+  font-family: 'Coconum', sans-serif;
+  color: #ec5242;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 5%;
+}
+
+.speaker-description {
+  margin-right: 10%;
 }
 
 .speakers-button {
@@ -237,4 +274,157 @@ main {
 
 .down-icon:hover {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .social-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #272a31;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    gap: 10%;
+  }
+
+  .social-media {
+    display: flex;
+    color: #fff;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+
+  .bi-list {
+    display: none;
+  }
+
+  .desktop-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-icon {
+    width: 25%;
+    height: auto;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .desktop-name {
+    margin-right: 15%;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+  }
+
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30%;
+  }
+
+  .navbar-item {
+    margin-left: -30%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .lede {
+    margin-bottom: 0;
+  }
+
+  .program-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+  }
+
+  #masterclass {
+    margin-bottom: 18.5%;
+  }
+
+  #live-shows {
+    margin-bottom: 18.5%;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .desktop-program-description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    text-decoration: underline;
+  }
+
+  .speaker {
+    margin-bottom: 0;
+  }
+
+  .desktop-speaker {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .speakers-button {
+    display: none;
+  }
+
+  .partnerships {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #d3d3d3;
+    height: 100%;
+    background-color: #272a31;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .partnerships-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .downbeat {
+    width: 20%;
+    height: 30%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+  
+  .montreux {
+    width: 15%;
+    height: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 10%;
+  }
 }
