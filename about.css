@@ -8,6 +8,20 @@
   src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
 }
 
+@media screen and (max-width: 768px) {
+  .social-navbar {
+    display: none;
+  }
+
+  .desktop-title {
+    display: none;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -137,4 +151,113 @@ main {
   margin-top: 5%;
   margin-left: 35%;
   margin-bottom: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  
+  .social-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #272a31;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    gap: 10%;
+    list-style: none;
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+
+  .bi-list {
+    display: none;
+  }
+
+  .desktop-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-icon {
+    width: 25%;
+    height: auto;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .desktop-name {
+    margin-right: 15%;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+  }
+
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30%;
+  }
+
+  .navbar-item {
+    margin-left: -30%;
+  }
+
+  .lede {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    color: #272a31;
+  }
+
+  .main-description {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 75%;
+    text-align: center;
+  }
+
+  .main-tag {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-description {
+    text-align: center;
+  }
 }
