@@ -86,11 +86,6 @@ main {
   font-family: 'Lato', sans-serif;
 }
 
-.program-list {
-  padding-right: 5%;
-  margin-bottom: 7%;
-}
-
 .program-title {
   justify-self: center;
   align-self: center;
@@ -100,13 +95,21 @@ main {
   padding-top: 3%;
 }
 
+.program-list {
+  padding-right: 5%;
+  margin-bottom: 7%;
+}
+
 .list-item {
+  display: grid;
+  grid-template-columns: 40% 60%;
   display: flex;
   flex-direction: row;
   color: #ec5242;
 }
 
 .item-description {
+  justify-content: center;
   color: #fff;
 }
 
@@ -115,7 +118,8 @@ main {
 }
 
 .item-title {
-  padding-right: 5%;
+  margin-right: 5%;
+  font-size: 16px;
 }
 
 .bi-file-music {
@@ -173,7 +177,8 @@ main {
 }
 
 .speaker {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 10%;
 }
 
@@ -185,8 +190,8 @@ main {
   margin-left: 8%;
   margin-right: 4%;
   margin-top: 15%;
-  width: 45%;
-  height: 45%;
+  width: 75%;
+  height: 75%;
 }
 
 .speakers-title {
