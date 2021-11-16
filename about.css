@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(./assets/fonts/cocogoose-pro.regular.ttf);
+}
+
+@font-face {
+  font-family: Coconum;
+  src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.navbar {
+  background: rgb(236,82,66);
+  background: linear-gradient(90deg, rgba(236,82,66,1) 45%, rgba(39,42,49,1) 90%);
+}
+
+.bi-list {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+main {
+  flex-direction: column;
+  align-content: center;
+  background-image: url(./assets/images/145eabdf1f0caba2f228d05f7c9452ab.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lede {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 5%;
+  font-size: 30px;
+  margin-bottom: -3%;
+}
+
+.title {
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 6%;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 100%;
+}
+
+.main-description {
+  font-family: 'Lato', sans-serif;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  margin: 0 3%;
+  padding: 3% 3%;
+  background-color: #ec5242;
+}
+
+.main-tag {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: -3%;
+}
+
+.email-address {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-title {
+  align-self: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 3%;
+}
+
+.logo-description {
+  font-size: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  line-height: 175%;
+}
+
+.logo-image {
+  align-self: center;
+  width: 75%;
+  height: 75%;
+  margin-bottom: 10%;
+}
+
+.partnerships {
+  border-top: 1px solid #d3d3d3;
+  height: 100%;
+  background-color: #272a31;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.partnerships-title {
+  display: flex;
+  justify-content: center;
+}
+
+.downbeat {
+  width: 20%;
+  height: 30%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.montreux {
+  width: 15%;
+  height: 25%;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-bottom: 10%;
+}
