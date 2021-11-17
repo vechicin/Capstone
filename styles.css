@@ -54,10 +54,24 @@ body {
   cursor: pointer;
 }
 
+.hamburger.hide {
+  display: none;
+}
+
 .bi-list {
   margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 6%;
+}
+
+.bi-x-square {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+.close {
+  display: none;
 }
 
 .navbar-items.show {
@@ -66,6 +80,15 @@ body {
   font-family: 'Lato', sans-serif;
   list-style: none;
   font-size: 30px;
+}
+
+.close.show {
+  display: block;
+  background: none;
+  border: none;
+  color: #272a31;
+  margin-top: 3%;
+  margin-left: 3%;
 }
 
 a {

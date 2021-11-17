@@ -1,9 +1,18 @@
 // INTERACTIONS
 let hamburger = document.querySelector('.hamburger');
 let navUl = document.querySelector('.navbar-items');
+let closeButton = document.querySelector('.close');
 
 hamburger.addEventListener('click', () => {
-  navUl.classList.toggle('show');
+  hamburger.classList.add('hide');
+  navUl.classList.add('show');
+  closeButton.classList.add('show');
+});
+
+closeButton.addEventListener('click', () => {
+  hamburger.classList.remove('hide');
+  navUl.classList.remove('show');
+  closeButton.classList.remove('show');
 });
 
 // HOME PAGE FEATURED SPEAKERS
