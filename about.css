@@ -36,10 +36,31 @@ body {
   background: linear-gradient(90deg, rgba(236,82,66,1) 45%, rgba(39,42,49,1) 90%);
 }
 
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .bi-list {
   margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 6%;
+}
+
+.navbar-items.show {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+  color: #d3d3d3;
+  margin-left: -5%;
 }
 
 main {
