@@ -32,8 +32,8 @@ body {
 }
 
 .navbar {
-  background: rgb(236,82,66);
-  background: linear-gradient(90deg, rgba(236,82,66,1) 45%, rgba(39,42,49,1) 90%);
+  background: rgb(236, 82, 66);
+  background: linear-gradient(90deg, rgba(236, 82, 66, 1) 45%, rgba(39, 42, 49, 1) 90%);
 }
 
 .hamburger {
@@ -202,10 +202,6 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-  .navbar {
-    display: none;
-  }
-  
   .social-navbar {
     display: flex;
     flex-direction: row;
