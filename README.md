@@ -33,6 +33,8 @@ Give a ⭐️ if you like this project!
 
 - Cindy Shin for her work, which deeply inspired the design for this website
 
+- Wikipedia for providing the information for the speakers description text
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
