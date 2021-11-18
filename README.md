@@ -5,7 +5,9 @@
 
 ![screenshot](./assets/images/screenshot.png)
 
-If you want to check the full page, please follow [this link](https://vechicin.github.io/Capstone/). 
+If you want to check the full page, please follow [this link](https://vechicin.github.io/Capstone/).
+
+If you want to check a brief video presentation, please follow [this link](https://www.loom.com/share/29b6a96347e94dc585981d9015b7116a).
 
 ## Built With
 

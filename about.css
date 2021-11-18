@@ -150,6 +150,7 @@ main {
   display: flex;
   flex-direction: column;
   font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .logo-title {
@@ -171,6 +172,50 @@ main {
   width: 75%;
   height: 75%;
   margin-bottom: 10%;
+}
+
+.first-edition {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.first-edition-title {
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.first-edition-description {
+  padding: 5%;
+}
+
+.first-edition-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.text-overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-description {
+  position: absolute;
+  width: 50%;
+  background-color: #ec5242;
+  opacity: 0.8;
+}
+
+.first-edition-image {
+  justify-self: center;
+  width: 75%;
+  height: auto;
 }
 
 .partnerships {
@@ -199,6 +244,26 @@ main {
   margin-top: 5%;
   margin-left: 35%;
   margin-bottom: 10%;
+}
+
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-image {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
 }
 
 @media screen and (min-width: 768px) {
@@ -308,5 +373,10 @@ main {
 
   .logo-description {
     text-align: center;
+  }
+
+  .first-edition-images {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
   }
 }
