@@ -1,0 +1,380 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(./assets/fonts/cocogoose-pro.regular.ttf);
+}
+
+@font-face {
+  font-family: Coconum;
+  src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+
+.social-navbar {
+  display: none;
+}
+
+.desktop-title {
+  display: none;
+}
+
+.navbar-items {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.navbar {
+  background: rgb(236, 82, 66);
+  background: linear-gradient(90deg, rgba(236, 82, 66, 1) 45%, rgba(39, 42, 49, 1) 90%);
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger.hide {
+  display: none;
+}
+
+.bi-list {
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+.close {
+  display: none;
+}
+
+.navbar-items.show {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+.close.show {
+  display: block;
+  background: none;
+  border: none;
+  color: #272a31;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.navbar-links {
+  text-decoration: none;
+  font-weight: 800;
+  color: #d3d3d3;
+  margin-left: -5%;
+}
+
+main {
+  flex-direction: column;
+  align-content: center;
+  background-image: url(./assets/images/145eabdf1f0caba2f228d05f7c9452ab.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lede {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 5%;
+  font-size: 30px;
+  margin-bottom: -3%;
+}
+
+.title {
+  font-family: 'Cocogoose', sans-serif;
+  color: #ec5242;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 6%;
+  font-size: 35px;
+  letter-spacing: 2px;
+  line-height: 100%;
+  background-color: #272a31;
+  border: 1px solid #ec5242;
+  text-align: center;
+  padding: 2%;
+}
+
+.main-description {
+  font-family: 'Lato', sans-serif;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  margin: 0 3%;
+  padding: 3% 3%;
+  background-color: #ec5242;
+}
+
+.main-tag {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: -3%;
+  background-color: #ec5242;
+  border: 2px solid #fff;
+  padding: 2%;
+}
+
+.email-address {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #ec5242;
+  border: 2px solid #fff;
+  padding: 1%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.logo-title {
+  align-self: center;
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 3%;
+}
+
+.logo-description {
+  font-size: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  line-height: 175%;
+}
+
+.logo-image {
+  align-self: center;
+  width: 75%;
+  height: 75%;
+  margin-bottom: 10%;
+}
+
+.first-edition {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.first-edition-title {
+  border-bottom: 1px solid #ec5242;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.first-edition-description {
+  padding: 5%;
+}
+
+.first-edition-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.text-overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-description {
+  position: absolute;
+  width: 50%;
+  background-color: #ec5242;
+  opacity: 0.8;
+}
+
+.first-edition-image {
+  justify-self: center;
+  width: 75%;
+  height: auto;
+}
+
+.partnerships {
+  border-top: 1px solid #d3d3d3;
+  height: 100%;
+  background-color: #272a31;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.partnerships-title {
+  display: flex;
+  justify-content: center;
+}
+
+.downbeat {
+  width: 20%;
+  height: 30%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.montreux {
+  width: 15%;
+  height: 25%;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-bottom: 10%;
+}
+
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-image {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+}
+
+@media screen and (min-width: 768px) {
+  .social-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #272a31;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+    gap: 10%;
+    list-style: none;
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+
+  .bi-list {
+    display: none;
+  }
+
+  .desktop-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-icon-link {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .desktop-icon {
+    width: 60%;
+    height: auto;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .desktop-name {
+    margin-right: 15%;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 30px;
+  }
+
+  .navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30%;
+  }
+
+  .navbar-item {
+    margin-left: -30%;
+  }
+
+  .lede {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-description {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 75%;
+    text-align: center;
+  }
+
+  .main-tag {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-description {
+    text-align: center;
+  }
+
+  .first-edition-images {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+}
