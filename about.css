@@ -8,18 +8,16 @@
   src: url(./assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf);
 }
 
-@media screen and (max-width: 768px) {
-  .social-navbar {
-    display: none;
-  }
+.social-navbar {
+  display: none;
+}
 
-  .desktop-title {
-    display: none;
-  }
+.desktop-title {
+  display: none;
+}
 
-  .navbar-items {
-    display: none;
-  }
+.navbar-items {
+  display: none;
 }
 
 body {
